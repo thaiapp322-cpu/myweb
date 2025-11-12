@@ -10,13 +10,13 @@ function App() {
       <div className="min-h-screen flex flex-col">
         <Header />
         <main className="mt-auto">
-          <section className="flex flex-col justify-center bg-gradient-to-r from-gray-900 to-gray-300 text-white min-h-full py-37">
+          <section className="flex flex-col justify-center bg-gradient-to-r from-gray-900 to-green-400 text-white min-h-full py-37">
             <div className="container mx-auto px-4 text-center py-20">
               <h1 className="text-4xl font-bold mb-4">
-                Welcome to Khing Restaurant Website
+                Welcome to Smart things Website
               </h1>
               <p className="text-2xl mb-8">
-                Let's we recommend the best thai foods to you
+                Let's we view 20 smart things with us
               </p>
               <button className="bg-white text-black py-3 px-8 rounded-full font-semibold hover:bg-black transition hover:text-white">
                 Views
@@ -28,10 +28,7 @@ function App() {
             <div className="container mx-auto px-4">
               <div className="text-center mb-12">
                 <h2 className="text-4xl font-bold mb-4 text-gray-800">
-                  Welcome to Khing Restaurant
-                  <p className="text-gray-600 text-lg mt-2">
-                    The Best Foods in Thailand let's try ! !
-                  </p>
+                  Welcome to Smart things Website
                 </h2>
               </div>
 
