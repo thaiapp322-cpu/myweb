@@ -1,8 +1,8 @@
 import React from "react";
 import Header from "./component/Header";
 import Footer from "./component/Footer";
-// import foods from "./data/foods.js";
-// import Card from "./component/Card";
+import things from "./data/smart_things.js";
+import Card from "./component/Card";
 
 function App() {
   return (
@@ -35,15 +35,15 @@ function App() {
                 </h2>
               </div>
 
-              {/* <div className='flex flex-wrap justify-center gap-14'>
-                {foods.map((f) => (
+              <div className='flex flex-wrap justify-center gap-14'>
+                {things.map((t) => (
                   <Card 
-                  key={f.id}
-                  image={f.image}
-                  name={f.name}
+                  key={t.id}
+                  image={t.image}
+                  name={t.name}
                   />
                 ))}
-              </div> */}
+              </div>
             </div>
           </section>
         </main>
